@@ -50,6 +50,7 @@ const performSafetyChecks = require('./perform-safety-checks');
 const rebuildResolverCaches = require('./rebuild-resolver-caches');
 const rebuildLegacyResolverCaches = require('./rebuild-legacy-resolver-caches');
 const systemAndParameterCheck = require('./system-and-parameter-check');
+const deployBandOracle = require('./deploy-band-oracle');
 // const takeDebtSnapshotWhenRequired = require('./take-debt-snapshot-when-required');
 
 const DEFAULTS = {
@@ -222,8 +223,6 @@ const deploy = async ({
 	nonceManager.provider = deployer.provider;
 	nonceManager.account = account;
 
-	console.log('Start fetching data...')
-
 	const {
 		currentSynthetixSupply,
 		currentLastMintEvent,
@@ -283,6 +282,12 @@ const deploy = async ({
 
 		return { noop, ...rest };
 	};
+
+	await deployBandOracle({
+		deployer,
+	});
+
+	process.exit(1);
 
 	await deployCore({
 		account,

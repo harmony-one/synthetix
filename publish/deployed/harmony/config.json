@@ -226,5 +226,8 @@
 	},
 	"DebtMigratorOnEthereum": {
 		"deploy": false
+	},
+	"BandOracleReader": {
+		"deploy": true
 	}
 }

@@ -91,6 +91,7 @@ const constants = {
 	OFFCHAIN_FEEDS_FILENAME: 'offchain-feeds.json',
 	FUTURES_MARKETS_FILENAME: 'futures-markets.json',
 	PERPS_V2_MARKETS_FILENAME: 'perpsv2-markets.json',
+	BAND_ORACLE_READER_FILENAME: 'BandOracleReader.json',
 
 	AST_FILENAME: 'asts.json',
 
