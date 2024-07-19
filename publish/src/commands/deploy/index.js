@@ -283,11 +283,9 @@ const deploy = async ({
 		return { noop, ...rest };
 	};
 
-	await deployBandOracle({
-		deployer,
-	});
-
-	process.exit(1);
+	// await deployBandOracle({
+	// 	deployer,
+	// });
 
 	await deployCore({
 		account,
