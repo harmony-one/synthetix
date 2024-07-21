@@ -14,6 +14,7 @@ module.exports = async ({ deployer, runStep, feeds, useOvm }) => {
 
 	for (const { asset, feed } of Object.values(feeds)) {
 		const key = asset;
+		console.log('ExchangeRates address:', ExchangeRates.address);
 		if (isAddress(feed) && ExchangeRates) {
 			await runStep({
 				contract: `ExchangeRates`,

@@ -1,11 +1,11 @@
 pragma solidity ^0.5.16;
 pragma experimental ABIEncoderV2;
 
-import {AggregatorV2V3Interface} from "../interfaces/AggregatorV2V3Interface.sol";
-import {IPyth} from "../interfaces/IPyth.sol";
-import {IStdReference} from "./BandOracleInterfaces.sol";
-import {PythStructs} from "../interfaces/PythStructs.sol";
-import {Owned} from "../Owned.sol";
+import {AggregatorV2V3Interface} from "./interfaces/AggregatorV2V3Interface.sol";
+import {IPyth} from "./interfaces/IPyth.sol";
+import {IStdReference} from "./interfaces/BandOracleInterfaces.sol";
+import {PythStructs} from "./interfaces/PythStructs.sol";
+import {Owned} from "./Owned.sol";
 
 contract BandOracleReader is AggregatorV2V3Interface, IPyth, Owned {
     // only available after solidity v0.8.4

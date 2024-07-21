@@ -50,7 +50,7 @@ class Deployer {
 		this.useOvm = useOvm;
 
 		this.provider =
-			provider || new ethers.providers.JsonRpcProvider(providerUrl || 'https://a.api.s0.t.hmny.io');
+			provider || new ethers.providers.JsonRpcProvider(providerUrl || 'https://api.harmony.one');
 
 		if (signer) {
 			this.signer = signer;

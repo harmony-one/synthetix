@@ -99,6 +99,7 @@ module.exports = async ({
 
 		// now setup price aggregator if any for the synth
 		if (isAddress(feed) && ExchangeRates) {
+			console.log('ExchangeRates - addAggregator', 'currencyKey', currencyKey, 'feed', feed);
 			await runStep({
 				contract: `ExchangeRates`,
 				target: ExchangeRates,
