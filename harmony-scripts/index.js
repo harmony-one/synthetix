@@ -14,7 +14,7 @@ const signer = new ethers.Wallet(process.env.PRIVATE_KEY, provider);
 // ];
 
 // Deployed band oracle aggregator (BTC)
-const contractAddress = '0x38286Ecd15c1c9D69DC73D940C2e39Fb5De878A5';
+const contractAddress = '0x4EdeeB8efa8e8dA1a68699D19BA9B85d78EAc565';
 const bandOracleReader = new ethers.Contract(contractAddress, BandOracleABI, signer);
 
 const latestRound = async () => {
@@ -35,9 +35,13 @@ const pullDataAndCache = async () => {
 	}
 };
 
-const run = () => {
-	latestRound();
-	// pullDataAndCache();
+const run = async () => {
+	try {
+		const latestRound = await bandOracleReader.latestRound();
+		console.log('latestRound', latestRound.toString());
+	} catch (e) {
+		console.error('Failed to execute script:', e);
+	}
 };
 
 run();

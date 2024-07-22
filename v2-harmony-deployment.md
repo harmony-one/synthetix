@@ -5,5 +5,5 @@ node publish deploy --network harmony --deployment-path ./publish/deployed/harmo
 
 ### Harmony 2
 ```shell
-node publish deploy --network harmony --deployment-path ./publish/deployed/harmony2 --ignore-safety-checks --dry-run
+node publish deploy --network harmony --deployment-path ./publish/deployed/harmony2 --ignore-safety-checks
 ```
