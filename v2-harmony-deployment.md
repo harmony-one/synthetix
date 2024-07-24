@@ -1,11 +1,21 @@
-### Deployment command:
+Build contracts:
 ```shell
-node publish deploy --network harmony --deployment-path ./publish/deployed/harmony --ignore-safety-checks
+yarn compile
 ```
 
-### Harmony 2
+Compile contracts into build/compiled:
 ```shell
-node publish deploy --network harmony --deployment-path ./publish/deployed/harmony2 --ignore-safety-checks
+node publish build
+```
+
+Run deployment
+```shell
+node publish deploy --network harmony --deployment-path ./publish/deployed/harmony3 --ignore-safety-checks
+```
+
+```shell
+Skipping TokenStateSynthetix as it is NOT in contract flags file for deployment.
+
 ```
 
 ### Add aggregator log
