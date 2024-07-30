@@ -26,7 +26,7 @@ node publish deploy --network harmony --deployment-path ./publish/deployed/harmo
 
 6. Clone/open [synthetix-js-monorepo](https://github.com/ArtemKolodko/synthetix-js-monorepo/pull/1), install dependencies and copy content of a new folder `./publish/deployed/harmony3` to `js-monorepo/v2/contracts/publish/deployed/harmony` 
 
-7. Navigate to `js-monorepo/v2/contracts` in synthetix-js-monorepo repository and run script to build contract bindings in client repository:
+7. Navigate to `js-monorepo/v2/contracts` in synthetix-js-monorepo repository and run script to build contract bindings:
 ```shell
 yarn build
 ```
