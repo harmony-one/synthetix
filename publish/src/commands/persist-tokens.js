@@ -78,10 +78,10 @@ const persistTokens = async ({ network, yes, privateKey, assetsVersion }) => {
 			chainId,
 			address,
 			symbol,
-			name: symbol === 'SNX' ? 'Synthetix Network Token' : `Synth ${name}`,
+			name: symbol === '1SY' ? 'SY Network Token' : `Synth ${name}`,
 			decimals,
-			logoURI: baseURI + (symbol === 'SNX' ? '/snx/SNX.svg' : `/synths/${symbol}.svg`),
-			tags: [].concat(index ? 'index' : []).concat(symbol !== 'SNX' ? 'synth' : []),
+			logoURI: baseURI + (symbol === '1SY' ? '/snx/SNX.svg' : `/synths/${symbol}.svg`),
+			tags: [].concat(index ? 'index' : []).concat(symbol !== '1SY' ? 'synth' : []),
 		})),
 	};
 

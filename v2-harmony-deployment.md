@@ -40,6 +40,29 @@ Example with single token:
 
 ```
 
+Replace `deployment.json` file with content:
+```shell
+{
+	"targets": {},
+	"sources": {}
+}
+```
+
+Set all values in `config.json` to `"deploy":true`.
+
+Example:
+```shell
+{
+	"SystemSettings": {
+		"deploy": true
+	},
+	"SynthetixBridgeToOptimism": {
+		"deploy": true
+	},
+	...
+}
+```
+
 6. Create `.env` file in root folder and add envs:
 ```shell
 PRIVATE_KEY=0x123
