@@ -51,22 +51,26 @@ Note that deployer account should have ONE tokens on balance!
 
 7. Run Synthetix deployment
 ```shell
-node publish deploy --network harmony --deployment-path ./publish/deployed/harmony3 --ignore-safety-checks
+node publish deploy --network harmony --deployment-path ./publish/deployed/harmony4 --ignore-safety-checks
 ```
 
 8. Clone/open [synthetix-js-monorepo](https://github.com/ArtemKolodko/synthetix-js-monorepo/pull/1), install dependencies and copy content of a new folder `./publish/deployed/harmony3` to `js-monorepo/v2/contracts/publish/deployed/harmony` 
 
-9. Navigate to `js-monorepo/v2/contracts` in synthetix-js-monorepo repository and run script to build contract bindings:
+9. Open `js-monorepo` repository (Synthetix UI)
+
+10. Copy content of deployed Synthetix folder (`./publish/deployed/harmony4`) to `js-monorepo/v2/contracts/publish/deployed/harmony`
+
+11. Navigate to `js-monorepo/v2/contracts` in synthetix-js-monorepo repository and run script to build contract bindings:
 ```shell
+cd /v2/contracts
 yarn build
 ```
 
-10. In synthetix-js-monorepo repository, navigate to `v2/ui` and run client locally:
+12. In synthetix-js-monorepo repository, navigate to `v2/ui` and run client locally:
 ```shell
 yarn dev
 ```
 
-11. Open http://localhost:3000/, Synthetix V2 client page should be rendered
+13. Open http://localhost:3000/, Synthetix V2 client page should be rendered
 
-
-12. Launch BandOracleUpdater (afet going public): [https://github.com/harmony-one/band-oracle-updater](https://github.com/harmony-one/band-oracle-updater). It's a bot that pushing BandOracleReader contract updates with given interval.
+14. Launch BandOracleUpdater (afet going public): [https://github.com/harmony-one/band-oracle-updater](https://github.com/harmony-one/band-oracle-updater). It's a bot that pushing BandOracleReader contract updates with given interval.

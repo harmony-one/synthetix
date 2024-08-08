@@ -5,7 +5,7 @@ require('dotenv').config({ path: path.resolve(__dirname, '../.env') });
 const {
 	abi: BandOracleABI,
 	bytecode: BandOracleBytecode,
-} = require('../build/artifacts/contracts/BandOracleReader.sol/BandOracleReader.json');
+} = require('./BandOracleReader.json');
 
 const bandOracleAddress = '0xA55d9ef16Af921b70Fed1421C1D298Ca5A3a18F1';
 const base = 'ETH';

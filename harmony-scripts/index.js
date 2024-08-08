@@ -2,9 +2,7 @@ const ethers = require('ethers');
 const path = require('path');
 require('dotenv').config({ path: path.resolve(__dirname, '../.env') });
 // NOTE: run yarn compile first
-const {
-	abi: BandOracleABI,
-} = require('../build/artifacts/contracts/BandOracleReader.sol/BandOracleReader.json');
+const BandOracleABI = require('./BandOracleReaderABI.json');
 
 const provider = new ethers.providers.JsonRpcProvider('https://api.harmony.one');
 const signer = new ethers.Wallet(process.env.PRIVATE_KEY, provider);
@@ -17,7 +15,7 @@ const signer = new ethers.Wallet(process.env.PRIVATE_KEY, provider);
 // BTC: 0x4EdeeB8efa8e8dA1a68699D19BA9B85d78EAc565
 // ONE: 0x6cb4f021d163d38766e90534b21a71b2085b61a8
 // ETH: 0xf0184d340660cd3ce4944f0c6e1b63c85d78dbcd
-const contractAddress = '0xecc3dde2a28c07d52a6e616398e0da0a116f58e8';
+const contractAddress = '0x6cb4f021d163d38766e90534b21a71b2085b61a8';
 const bandOracleReader = new ethers.Contract(contractAddress, BandOracleABI, signer);
 
 const latestRound = async () => {

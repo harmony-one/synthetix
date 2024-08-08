@@ -41,7 +41,7 @@ module.exports = async ({
 	yes,
 	buildPath,
 }) => {
-	let currentSynthetixSupply = 0;
+	let currentSynthetixSupply = await getDeployParameter('INITIAL_ISSUANCE');
 	let oldExrates;
 	let currentLastMintEvent = 0;
 	let currentWeekOfInflation = 0;
