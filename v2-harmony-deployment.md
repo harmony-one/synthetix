@@ -97,3 +97,25 @@ yarn dev
 13. Open http://localhost:3000/, Synthetix V2 client page should be rendered
 
 14. Launch BandOracleUpdater (afet going public): [https://github.com/harmony-one/band-oracle-updater](https://github.com/harmony-one/band-oracle-updater). It's a bot that pushing BandOracleReader contract updates with given interval.
+
+
+### Deploy new oracle feed for swap.country token
+
+1) Create new liquidity pool:
+      https://info.swap.harmony.one/#/harmony/pools/0xbc4af4ee9164c469b9e90f7d9b5f7854556133d6
+
+2) Clone https://github.com/polymorpher/synth-oracle and run `forge build`
+3) Change POOL_ADDRESS to the pool for USDC/1SY and fill in your DEPLOYER_PRIVATE_KEY
+   
+also might need to change true to false here, depending on whether the pair is USDC/1SY or 1SY/USDC
+
+4) Deploy new oracle contract:
+```shell
+./deploy.sh
+Oracle address: 0xe3EAB0d319908c3Ca68076b208a9870571dDb03F
+```
+
+5) Complete one trade on swap.country and check the price:
+```shell
+cast call 0xe3EAB0d319908c3Ca68076b208a9870571dDb03F "latestAnswer()(int256)" --rpc-url https://api.harmony.one
+```
