@@ -11,11 +11,8 @@ const provider = new ethers.providers.JsonRpcProvider('https://api.harmony.one')
 const signer = new ethers.Wallet(process.env.PRIVATE_KEY, provider);
 
 // ExchangeRates contract (/publish/deployed/harmony4)
-const contract = new ethers.Contract(
-	'0x4d6A3E4524a1b269C7E3564a22b908693Aa5186A',
-	ExchangeRatesABI,
-	signer
-);
+const exchangeRatesAddress = '0x4d6A3E4524a1b269C7E3564a22b908693Aa5186A';
+const contract = new ethers.Contract(exchangeRatesAddress, ExchangeRatesABI, signer);
 
 const currencySymbol = 'SNX';
 const currency = toBytes32(currencySymbol);
@@ -30,7 +27,7 @@ const run = async () => {
 		console.log(`Current aggregators for ${currencySymbol}:`, aggregators);
 		// await contract.removeAggregator(currency);
 		await contract.addAggregator(currency, newFeedAddress);
-		console.log(`${currencySymbol}: feed replaced; new feed: ${newFeedAddress}`)
+		console.log(`${currencySymbol}: feed replaced; new feed: ${newFeedAddress}`);
 	} catch (e) {
 		console.error('Failed to execute script:', e);
 	}
