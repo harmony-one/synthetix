@@ -23,8 +23,8 @@ contract BaseSynthetix is IERC20, ExternStateToken, MixinResolver, ISynthetix {
     // ========== STATE VARIABLES ==========
 
     // Available Synths which can be used with the system
-    string public constant TOKEN_NAME = "Synthetix Network Token";
-    string public constant TOKEN_SYMBOL = "SNX";
+    string public constant TOKEN_NAME = "SY Network Token";
+    string public constant TOKEN_SYMBOL = "1SY";
     uint8 public constant DECIMALS = 18;
     bytes32 public constant sUSD = "sUSD";
 

@@ -50,6 +50,7 @@ const performSafetyChecks = require('./perform-safety-checks');
 const rebuildResolverCaches = require('./rebuild-resolver-caches');
 const rebuildLegacyResolverCaches = require('./rebuild-legacy-resolver-caches');
 const systemAndParameterCheck = require('./system-and-parameter-check');
+const deployBandOracle = require('./deploy-band-oracle');
 // const takeDebtSnapshotWhenRequired = require('./take-debt-snapshot-when-required');
 
 const DEFAULTS = {
@@ -165,7 +166,7 @@ const deploy = async ({
 		);
 	}
 
-	console.log(gray('Loading the compiled contracts locally...'));
+	console.log(gray('Loading the compiled contracts locally...', buildPath));
 	const { earliestCompiledTimestamp, compiled } = loadCompiledFiles({ buildPath });
 
 	const { privateKey: envPrivateKey, explorerLinkPrefix } = loadConnections({
@@ -281,6 +282,10 @@ const deploy = async ({
 
 		return { noop, ...rest };
 	};
+
+	// await deployBandOracle({
+	// 	deployer,
+	// });
 
 	await deployCore({
 		account,

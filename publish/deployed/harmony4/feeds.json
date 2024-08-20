@@ -1,0 +1,22 @@
+{
+	"SNX": {
+		"asset": "SNX",
+		"feed": "0x6cb4f021d163d38766e90534b21a71b2085b61a8"
+	},
+	"ETH": {
+		"asset": "ETH",
+		"feed": "0x6cb4f021d163d38766e90534b21a71b2085b61a8"
+	},
+	"BTC": {
+		"asset": "BTC",
+		"feed": "0x6cb4f021d163d38766e90534b21a71b2085b61a8"
+	},
+	"LINK": {
+		"asset": "LINK",
+		"feed": "0x6cb4f021d163d38766e90534b21a71b2085b61a8"
+	},
+	"ETHBTC": {
+		"asset": "ETHBTC",
+		"feed": "0x6cb4f021d163d38766e90534b21a71b2085b61a8"
+	}
+}
