@@ -7,15 +7,15 @@ https://github.com/harmony-one/h/blob/main/docs/synthetix-v2-deployment.md
 Add the private keys to the `.env` file in the root folder, as they will be used as signers:
 
 ```shell
-PRIVATE_KEY1=0x123
-PRIVATE_KEY2=0x123
-PRIVATE_KEY3=0x123
+PRIVATE_KEY_1=0x123
+PRIVATE_KEY_2=0x123
+PRIVATE_KEY_3=0x123
 ```
 
 Run the profitable trades script:
 
 ```shell
-node profitable-trade.js
+node profitable-trades.js
 ```
 
 Input the Trade Values:
