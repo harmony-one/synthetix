@@ -4,7 +4,7 @@ require('dotenv').config({ path: path.resolve(__dirname, '../.env') });
 const readline = require('readline');
 
 // Connect to the Ethereum network via a provider
-const provider = new ethers.providers.JsonRpcProvider('https://api.harmony.one');
+const provider = new ethers.providers.JsonRpcProvider('https://api.harmony.one', 1666600000);
 
 // Define signers using different private keys
 const signer1 = new ethers.Wallet(process.env.PRIVATE_KEY_1, provider);

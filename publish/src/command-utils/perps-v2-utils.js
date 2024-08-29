@@ -463,7 +463,17 @@ const rebuildCaches = async ({ deployer, runStep, implementations }) => {
 
 	const requireCache = [];
 	for (const implementation of implementations) {
-		const isCached = await implementation.target.isResolverCached();
+		let isCached = false; // const isCached = await implementation.target.isResolverCached();
+		// harmony-fix
+		try {
+			isCached = await implementation.target.isResolverCached();
+		} catch (e) {
+			if (implementation.target.source === 'EmptyFuturesMarketManager') {
+				isCached = true;
+			} else {
+				throw new Error(e);
+			}
+		}
 		if (!isCached) {
 			requireCache.push(implementation.target.address);
 		}

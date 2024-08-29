@@ -10,7 +10,7 @@ const data = {
 	'sepolia-ovm': require('./publish/deployed/sepolia-ovm'),
 	'local-ovm': require('./publish/deployed/local-ovm'),
 	'mainnet-ovm': require('./publish/deployed/mainnet-ovm'),
-	harmony: require('./publish/deployed/harmony'),
+	harmony: require('./publish/deployed/harmony5'),
 };
 
 const assets = require('./publish/assets.json');

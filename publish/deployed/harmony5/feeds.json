@@ -1,0 +1,367 @@
+{
+	"SNX": {
+		"asset": "SNX",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"ETH": {
+		"asset": "ETH",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"BTC": {
+		"asset": "BTC",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"LINK": {
+		"asset": "LINK",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"SOL": {
+		"asset": "SOL",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"AVAX": {
+		"asset": "AVAX",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"MATIC": {
+		"asset": "MATIC",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"EUR": {
+		"asset": "EUR",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"AAVE": {
+		"asset": "AAVE",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"UNI": {
+		"asset": "UNI",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"XAU": {
+		"asset": "XAU",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"XAG": {
+		"asset": "XAG",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"APE": {
+		"asset": "APE",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"DYDX": {
+		"asset": "DYDX",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"BNB": {
+		"asset": "BNB",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"OP": {
+		"asset": "OP",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"XMR": {
+		"asset": "XMR",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"DOGE": {
+		"asset": "DOGE",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"ATOM": {
+		"asset": "ATOM",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"AXS": {
+		"asset": "AXS",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"FLOW": {
+		"asset": "FLOW",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"FTM": {
+		"asset": "FTM",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"NEAR": {
+		"asset": "NEAR",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"AUD": {
+		"asset": "AUD",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"GBP": {
+		"asset": "GBP",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"ARB": {
+		"asset": "ARB",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"APT": {
+		"asset": "APT",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"LDO": {
+		"asset": "LDO",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"ADA": {
+		"asset": "ADA",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"GMX": {
+		"asset": "GMX",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"FIL": {
+		"asset": "FIL",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"LTC": {
+		"asset": "LTC",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"BCH": {
+		"asset": "BCH",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"SHIB": {
+		"asset": "SHIB",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"CRV": {
+		"asset": "CRV",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"PEPE": {
+		"asset": "PEPE",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"SUI": {
+		"asset": "SUI",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"BLUR": {
+		"asset": "BLUR",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"XRP": {
+		"asset": "XRP",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"DOT": {
+		"asset": "DOT",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"TRX": {
+		"asset": "TRX",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"FLOKI": {
+		"asset": "FLOKI",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"INJ": {
+		"asset": "INJ",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"STETH": {
+		"asset": "STETH",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"STETHETH": {
+		"asset": "STETHETH",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"MAV": {
+		"asset": "MAV",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"ETHBTC": {
+		"asset": "ETHBTC",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"ETC": {
+		"asset": "ETC",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"COMP": {
+		"asset": "COMP",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"MKR": {
+		"asset": "MKR",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"RPL": {
+		"asset": "RPL",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"YFI": {
+		"asset": "YFI",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"WLD": {
+		"asset": "WLD",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"DebtRatio": {
+		"asset": "DebtRatio",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F",
+		"note": "A read-proxy with CL feed as target: 0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"USDT": {
+		"asset": "USDT",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"BAL": {
+		"asset": "BAL",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"FXS": {
+		"asset": "FXS",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"KNC": {
+		"asset": "KNC",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"RNDR": {
+		"asset": "RNDR",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"ONE": {
+		"asset": "ONE",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"PERP": {
+		"asset": "PERP",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"ZIL": {
+		"asset": "ZIL",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"RUNE": {
+		"asset": "RUNE",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"SUSHI": {
+		"asset": "SUSHI",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"ZEC": {
+		"asset": "ZEC",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"XTZ": {
+		"asset": "XTZ",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"UMA": {
+		"asset": "UMA",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"ENJ": {
+		"asset": "ENJ",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"ICP": {
+		"asset": "ICP",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"XLM": {
+		"asset": "XLM",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"1INCH": {
+		"asset": "1INCH",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"EOS": {
+		"asset": "EOS",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"CELO": {
+		"asset": "CELO",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"ALGO": {
+		"asset": "ALGO",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"ZRX": {
+		"asset": "ZRX",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"SEI": {
+		"asset": "SEI",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"TRB": {
+		"asset": "TRB",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"TIA": {
+		"asset": "TIA",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"IMX": {
+		"asset": "IMX",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"MEME": {
+		"asset": "MEME",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"FET": {
+		"asset": "FET",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"GRT": {
+		"asset": "GRT",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"PYTH": {
+		"asset": "PYTH",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"ANKR": {
+		"asset": "ANKR",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"BONK": {
+		"asset": "BONK",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"JTO": {
+		"asset": "JTO",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"ORDI": {
+		"asset": "ORDI",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"CVX": {
+		"asset": "CVX",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"JUP": {
+		"asset": "JUP",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"PENDLE": {
+		"asset": "PENDLE",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	},
+	"STRK": {
+		"asset": "STRK",
+		"feed": "0xe3EAB0d319908c3Ca68076b208a9870571dDb03F"
+	}
+}
