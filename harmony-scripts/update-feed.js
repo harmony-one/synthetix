@@ -17,9 +17,10 @@ const contract = new ethers.Contract(exchangeRatesAddress, ExchangeRatesABI, sig
 const currencySymbol = 'SNX';
 const currency = toBytes32(currencySymbol);
 
-// 1SY token feed: 0xe3EAB0d319908c3Ca68076b208a9870571dDb03F
-// Deployed with synth-oracle: https://github.com/polymorpher/synth-oracle, POOL_ADDRESS=0xbc4af4ee9164c469b9e90f7d9b5f7854556133d6
-const newFeedAddress = '0xe3EAB0d319908c3Ca68076b208a9870571dDb03F';
+// 1SY token feed: 0xa84e54837AAb0045745e3B00C0A30b311Bc57FC5 (1SY / 1USDC)
+// Deployed with synth-oracle: https://github.com/polymorpher/synth-oracle
+// POOL_ADDRESS=0xbc4af4ee9164c469b9e90f7d9b5f7854556133d6
+const newFeedAddress = '0xa84e54837AAb0045745e3B00C0A30b311Bc57FC5';
 
 const run = async () => {
 	try {
